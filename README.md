@@ -13,4 +13,9 @@ For live feedback install _ghcid_ with `stack install ghcid` and start
 
 ### VS Code Setup
 
-    stack install intero hlint brittany ghcid
+Install the required tools.
+
+    stack install hlint brittany
+
+Open the VS Code workspace in `dojo-haskell.code-workspace`.
+Then install the recommended plugins.

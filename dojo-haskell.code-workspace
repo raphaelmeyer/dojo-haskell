@@ -7,7 +7,7 @@
   "extensions": {
     "recommendations": [
       "justusadam.language-haskell",
-      "ucl.haskelly",
+      "dramforever.vscode-ghc-simple",
       "hoovercj.haskell-linter",
       "jcanero.hoogle-vscode",
       "maxgabriel.brittany"
