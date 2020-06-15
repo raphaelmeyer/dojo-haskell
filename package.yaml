@@ -1,0 +1,31 @@
+name: dojo-haskell
+version: 0.0.0.1
+license: MIT
+
+dependencies:
+  - base
+
+executables:
+  dojo-exe:
+    main: Main.hs
+    source-dirs: app
+    ghc-options:
+      - -Wall
+      - -Werror
+    dependencies:
+      - dojo-haskell
+
+library:
+  exposed-modules: MyLibrary
+  source-dirs: src
+  ghc-options:
+    - -Wall
+    - -Werror
+
+tests:
+  test:
+    main: Spec.hs
+    source-dirs: test
+    dependencies:
+      - dojo-haskell
+      - hspec
